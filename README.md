@@ -1,4 +1,5 @@
 # ixplora-api-tests
+
 API testing automation framework for ixplora API developed by team A of AT-04 group.
 
 ## Pre-requirements
@@ -14,7 +15,7 @@ API testing automation framework for ixplora API developed by team A of AT-04 gr
 1. Clone the repository
 
 ```
-https://github.com/AT-04/ixplora-api-tests.git
+https://github.com/RichardSeverich/ruby-automation-api-ixplora.git
 ```
 
 2. Enter to the ixplora-api-test folder and run the command:
