@@ -1,0 +1,9 @@
+{
+	"properties": {
+		"results": {
+			"type": "string"
+		}
+	},
+	"required": ["results"],
+	"type": "object"
+}

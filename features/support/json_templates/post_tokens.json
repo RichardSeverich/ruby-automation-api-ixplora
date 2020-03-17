@@ -1,0 +1,8 @@
+{
+  "_id": "String",
+  "__ttl": "Date",
+  "token": "String",
+  "userId": "String",
+  "email": "String",
+  "__v": "Integer"
+}

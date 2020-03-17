@@ -1,0 +1,57 @@
+{
+	"type": "object",
+	"properties": {
+		"__v": {
+			"type": "integer"
+		},
+		"_id": {
+			"type": "string"
+		},
+		"birthDate": {
+			"type": "string"
+		},
+		"city": {
+			"type": "string"
+		},
+		"country": {
+			"type": "string"
+		},
+		"gender": {
+			"type": "string"
+		},
+		"name": {
+			"type": "string"
+		},
+		"primaryEmail": {
+			"type": "string"
+		},
+		"password": {
+			"type": "string"
+		},
+		"role": {
+			"type": "string"
+		},
+		"secondaryEmails": {
+			"items": {
+				"properties": {
+					"_id": {
+						"type": "string"
+					},
+					"email": {
+						"type": "string"
+					},
+					"validated": {
+						"type": " boolean"
+					}
+				},
+				"required": ["validated", "email", "_id"],
+				"type": "object"
+			},
+			"type": "array"
+		},
+		"validated": {
+			"type": "boolean"
+		}
+	},
+	"required": ["city", "primaryEmail", "validated", "name", "country", "birthDate", "secondaryEmails", "__v", "password", "role", "gender", "_id"]
+}

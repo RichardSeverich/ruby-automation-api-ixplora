@@ -1,0 +1,15 @@
+# Custom config for Rubocop
+Style/GlobalVars:
+  Enabled: false
+
+Metrics/LineLength:
+  Max: 120
+
+Metrics/BlockLength:
+  Max: 35
+
+Metrics/MethodLength:
+  Max: 15
+
+Metrics/AbcSize:
+  Enabled: false

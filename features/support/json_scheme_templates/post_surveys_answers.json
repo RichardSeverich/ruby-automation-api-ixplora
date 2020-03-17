@@ -1,0 +1,28 @@
+{
+  "properties": {
+    "columns": {
+      "type": "null"
+    },
+    "info": {
+      "properties": {
+        "achievedConsistency": {
+          "type": "integer"
+        },
+        "queriedHost": {
+          "type": "string"
+        },
+        "speculativeExecutions": {
+          "type": "integer"
+        },
+        "triedHosts": {
+          "type": "object"
+        }
+      },
+      "type": "object"
+    },
+    "pageState": {
+      "type": "null"
+    }
+  },
+  "type": "object"
+}

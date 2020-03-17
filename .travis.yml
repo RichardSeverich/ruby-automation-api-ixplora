@@ -1,0 +1,15 @@
+language: ruby
+
+rvm:
+  - 2.4.2
+
+before_script:
+  - gem install rubocop
+
+notifications:
+  email: true
+  recipients:
+    - marcos.lara@fundacion-jala.org
+    - richard.severich@fundacion-jala.org
+    - sergio.navarro@fundacion-jala.org
+    - jose.torrez@fundacion-jala.org

@@ -1,0 +1,81 @@
+{
+	"properties": {
+		"results": {
+			"properties": {
+				"answers": {
+					"items": {
+						"properties": {
+							"answers": {
+								"type": "array"
+							},
+							"location": {
+								"type": "object"
+							},
+							"submitDate": {
+								"type": "string"
+							},
+							"user": {
+								"type": "string"
+							}
+						},
+						"required": ["answers", "user", "submitDate", "location"],
+						"type": "object"
+					},
+					"type": "array"
+				},
+				"questions": {
+					"items": {
+						"properties": {
+							"label": {
+								"type": "string"
+							},
+							"options": {
+								"type": "array"
+							},
+							"type": {
+								"type": "string"
+							}
+						},
+						"required": ["type", "options", "label"],
+						"type": "object"
+					},
+					"type": "array"
+				},
+				"survey": {
+					"properties": {
+						"creationDate": {
+							"type": "string"
+						},
+						"description": {
+							"type": "string"
+						},
+						"downloadDate": {
+							"type": "string"
+						},
+						"endDate": {
+							"type": "string"
+						},
+						"id": {
+							"type": "string"
+						},
+						"publishing": {
+							"type": "string"
+						},
+						"scope": {
+							"type": "string"
+						},
+						"title": {
+							"type": "string"
+						}
+					},
+					"required": ["downloadDate", "endDate", "publishing", "title", "scope", "creationDate", "id", "description"],
+					"type": "object"
+				}
+			},
+			"required": ["survey", "answers", "questions"],
+			"type": "object"
+		}
+	},
+	"required": ["results"],
+	"type": "object"
+}

@@ -1,0 +1,87 @@
+{
+	"properties": {
+		"__v": {
+			"type": "integer"
+		},
+		"_id": {
+			"type": "string"
+		},
+		"audience": {
+			"type": "integer"
+		},
+		"creationDate": {
+			"type": "string"
+		},
+		"description": {
+			"type": "string"
+		},
+		"domains": {
+			"type": "array"
+		},
+		"expirationDate": {
+			"type": "string"
+		},
+		"owner": {
+			"type": "string"
+		},
+		"questions": {
+			"items": {
+				"properties": {
+					"_id": {
+						"type": "string"
+					},
+					"options": {
+						"items": {
+							"properties": {
+								"_id": {
+									"type": "string"
+								},
+								"default": {
+									"type": "boolean"
+								},
+								"label": {
+									"type": "string"
+								},
+								"sequence": {
+									"type": "integer"
+								}
+							},
+							"required": ["default", "_id", "sequence", "label"],
+							"type": "object"
+						},
+						"type": "array"
+					},
+					"required": {
+						"type": "boolean"
+					},
+					"sequence": {
+						"type": "integer"
+					},
+					"text": {
+						"type": "string"
+					},
+					"type": {
+						"type": "string"
+					}
+				},
+				"required": ["sequence", "text", "required", "_id", "type", "options"],
+				"type": "object"
+			},
+			"type": "array"
+		},
+		"releaseDate": {
+			"type": "string"
+		},
+		"responseQuantity": {
+			"type": "integer"
+		},
+		"state": {
+			"type": "integer"
+		},
+		"title": {
+			"type": "string"
+		}
+	},
+	"required": ["_id", "description", "title", "responseQuantity", "audience", "releaseDate", "domains", "state", "__v", "expirationDate", "questions", "owner", "creationDate"],
+	"type": "object"
+}

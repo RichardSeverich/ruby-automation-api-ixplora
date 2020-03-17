@@ -1,0 +1,14 @@
+{
+  "__v": "Integer",
+  "name": "String",
+  "primaryEmail": "String",
+  "password": "String",
+  "birthDate": "String",
+  "validated": "boolean",
+  "country": "String",
+  "city": "String",
+  "gender": "String",
+  "role": "String",
+  "_id": "String",
+  "secondaryEmails": []
+}

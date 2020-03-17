@@ -1,0 +1,20 @@
+Api_server_data:
+ server_host: http://10.28.130.4
+ server_port: 3001
+ server_extension: /api
+ server_version: /v1
+ timeout: 10
+
+Mongodb:
+  mongo_host: 10.28.130.4
+  mongo_port: 27017
+  mongo_username: ixplora
+  mongo_password: secretixplora
+  mongo_db_name: ixplora
+
+Cassandra:
+  cassandra_host: 10.28.130.4
+  cassandra_port: 9042
+  cassandra_username: ixplora
+  cassandra_password: secretixplora
+  cassandra_keyspace: ixplora
