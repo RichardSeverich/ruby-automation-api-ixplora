@@ -1,6 +1,7 @@
 # ixplora-api-tests
 
 API testing automation framework for ixplora API developed by team A of AT-04 group.
+This project was performed using Ruby, Gem file (in order to store the dependencies), Rubocop (for check code style), Cucumber, Gherkin (for write test cases), Data bases connection (Cassandra and Mongo DB), Json spec  (for response verifications), Report Builder (for generate reports) and rest client (in order to do the HTTP requests).
 
 ## Pre-requirements
 
